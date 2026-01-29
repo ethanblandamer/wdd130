@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Special+Elite&display=swap');
+
+
 div#content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Georgia, Garamond;
 }
 
 nav a {
     text-align: center;
     color: #171e14;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: "Special Elite", "Pangolin", "Trebuchet MS";
 }
 
 .button-box {
@@ -27,6 +33,14 @@ main section {
 
 body {
     background-color: #171e14;
+    color: #d0ddd7;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -42,6 +56,10 @@ nav a:hover {
     background-color: #7fe8ff;
     color: #171e14;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,15 +73,21 @@ nav a:hover {
 
 .msg {
     background-color: #7fe8ff;
+    padding: 35px;
 }
 
 footer {
     background-color: #171e14;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #7fe8ff;
+    font-family: "Special Elite", "Pangolin", "Trebuchet MS";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -72,10 +96,14 @@ h4 {
 
 .msg h2 {
     color: #446134;
+    font-family: "Special Elite", "Pangolin", "Trebuchet MS";
 }
 
 .msg p {
     color: #171e14;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -93,6 +121,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -105,4 +134,24 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
