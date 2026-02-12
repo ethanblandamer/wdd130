@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Mea+Culpa&family=Tangerine:wght@400;700');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #f8dbe1, #f3aed8, #f48eb7, #eb3584);
+    font-family: "Bonbon", Arial, Helvetica, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: "Mea Culpa", "Tangerine";
+    text-align: center;
+    margin-top: .5em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 2.5em;
+}
+
+img {
+    margin: 5px auto;
+    float: inline-end;
+    max-width: 60%;
+    mask:
+        radial-gradient(at 70% 31%,#000 29%,#0000 0%),
+        radial-gradient(at 30% 31%,#000 29%,#0000 0%),
+        linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+    clip-path: polygon(-41% 0,50% 91%, 141% 0);
+    transform: rotate(10deg);
+}
+
+
+
+ul {
+    font-size: 1.5em;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+footer {
+    margin-top: 10%;
+    max-height: 1000px;
+}
