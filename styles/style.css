@@ -211,3 +211,8 @@ footer .social{
     margin: 5px;
     margin-bottom: 0px;
 }
+
+.projects a p{
+    color: #9CCB21;
+    text-decoration: none;
+}
