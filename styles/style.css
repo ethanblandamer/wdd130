@@ -76,8 +76,8 @@ nav a:hover{
 
 #hero{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr; */
     justify-content: space-around;
     max-height: 370px;
 }
